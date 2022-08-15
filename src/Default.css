@@ -1,0 +1,198 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    line-height: 1.33;
+}
+
+p {
+  font-size: 25px;
+  line-height: 1.55;
+  margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+}
+
+.fw3 {
+  font-weight: 300 !important;
+}
+
+.fw5 {
+  font-weight: 500 !important;
+}
+
+.fz22 {
+  font-size: 22px;
+}
+
+.fz24 {
+  font-size: 24px;
+  line-height: 1.4;
+}
+
+.fz27 {
+  font-size: 27px;
+  line-height: 37px;
+}
+
+.fz30 {
+  font-size: 30px;
+  line-height: 1.3;
+}
+
+.fz50 {
+  font-size: 50px;
+}
+
+.fz59 {
+  font-size: 59px;
+  line-height: 1.1;
+}
+
+.fz60 {
+  font-size: 60px;
+  line-height: 1.33;
+}
+
+.fz64 {
+  font-size: 64px;
+  line-height: 1.2;
+}
+
+.fz68 {
+  font-size: 68px;
+  line-height: 1.1;
+}
+
+.fz69 {
+  font-size: 69px;
+  line-height: 1.2;
+}
+
+.fz72 {
+  font-size: 72px;
+}
+
+.fz84 {
+  font-size: 84px;
+  line-height: 1.1;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+a, a:hover {
+  text-decoration: none;
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.colW {
+  color: #fff !important;
+}
+
+.colG {
+  color: #59BA41 !important;
+}
+
+.colB {
+  color: #0A87FA !important;
+}
+
+.colBL {
+  color: #20A0E1;
+}
+
+.colBlack {
+  color: #000000 !important;
+}
+
+.row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(var(--bs-gutter-y) * -1);
+    margin-right: calc(var(--bs-gutter-x) * -.5);
+    margin-left: calc(var(--bs-gutter-x) * -.5);
+  }
+
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * .5);
+    padding-left: calc(var(--bs-gutter-x) * .5);
+    margin-top: var(--bs-gutter-y);
+  }
+
+  .container {
+    max-width: 1630px;
+    padding: 0 15px;
+    margin: 0 auto;
+  }
+  
+  .col {
+    flex: 1 0 0%;
+  }
+
+  div#root {
+    overflow: hidden;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 9px;
+  border-radius: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: rgb(10 135 250 / 0.16);
+  border-radius: 10px; 
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background:#0A87FA; 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background:#0A87FA; 
+}
+
+.MuiButtonBase-root.BlueBtn {
+  background: #0A87FA;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.2;
+  padding: 20px 45px;
+  border-radius: 50px;
+  min-width: 300px;
+  text-align: center;
+}
+
+.MuiButtonBase-root.blueLLineBtn {
+  font-size: 20px;
+  line-height: 1.2;
+  border: 1px solid #0A87FA;
+  padding: 15px 30px;
+  border-radius: 50px;
+  text-transform: none;
+}
